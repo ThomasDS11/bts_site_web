@@ -1,0 +1,194 @@
+.content{
+margin: auto;
+width: 250px;
+height:150px;
+}
+
+.content1{
+margin-left: 30px;
+width: 250px;
+height: 150px;
+}
+
+.container{
+margin: auto;
+
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li{
+float: right;
+margin-right: 20px;
+}
+
+li a{
+display: block;
+color: rgb(252, 252, 253);
+text-align: center;
+padding: 12px 12px;
+text-decoration: none;
+}
+.user{
+margin-left: 35px;
+}
+
+p{
+width: 350px;
+border: 1px solid black;
+text-align: justify;
+padding: 12px;
+margin: 50px; /* Marge ext�rieure de 50px */
+}
+
+.wrapper{
+margin-left: 30px;
+padding-top: 15px;
+}
+
+.wrapper1{
+margin-left: 30px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+.button{
+padding: 15px 50px;
+margin:10px 4px;
+color: #ffffff;
+background-color: #16be2d;
+font-family: sans-serif;
+text-transform: uppercase;
+text-align: center;
+position: relative;
+text-decoration: none;
+display:inline-block;
+border-radius: 1rem;
+}
+
+.button{
+border:1px solid transparent; 
+-webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+
+.button1{
+padding: 15px 50px;
+margin:10px 4px;
+color: #ffffff;
+background-color: #394ec4;
+font-family: sans-serif;
+text-transform: uppercase;
+text-align: center;
+position: relative;
+text-decoration: none;
+display:inline-block;
+border-radius: 1rem;
+}
+
+.button1{
+border:1px solid transparent; 
+-webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+
+.smenu{
+text-align: center;
+padding: 0px 15px;
+color: #E9F1FE;
+}
+
+.row1{
+    width: 100%;
+}
+
+.contenu1{
+margin-left: 65px;
+}
+
+.forfait{
+padding-top: 5px;
+margin-left: 5px;
+}
+
+.h3P{
+margin-left: 0;
+}
+
+.row2{
+margin-left: O;
+}
+
+ul#menuList1 a {
+color: #E9F1FE;
+text-decoration:none;
+}
+ul#menuList1 a:hover {
+text-decoration: underline rgb(62, 62, 230);
+color: rgb(62, 62, 230);
+}
+
+.forfait1{
+padding-top: 5px;
+margin-left: 15px;
+}
+
+.piedForm1{
+text-align:right ;
+width : 95%;
+margin-top:0em;
+}
+
+.listeLegere{
+/*    width:80%;*/
+    margin-bottom : 0.5em;
+}
+
+/* Tableaux quadrill�s utilis�s pour l'affichage de listes avec contenu l�ger*/ 
+.listeLegere th, .listeLegere td {
+    border : dotted rgb(178,207,81) 0.1em;
+    padding:0.5em;
+    vertical-align : top;
+    text-align : left;
+}
+
+.listeLegere caption {
+    font-size : 1.1em;
+    text-align : left;
+    margin-bottom : 0.3em;
+}
+.listeLegere td {
+    vertical-align:top;
+    font-weight:normal;
+}
+.listeLegere th.eltForfait{
+    color:black;
+}
+.listeLegere th.date, .listeLegere th.montant{
+    width:15%;
+    color:black;
+}
+.listeLegere th.libelle{
+    width:70%;
+    color:black;
+}
+
+.encadre{
+    border : solid 0.1em #000;
+    width : 95%;
+  }
+
+.body{
+    background-color: #77AADD;
+    background-repeat: repeat-x;
+    margin:0% 0%;
+    padding : 0.6em;
+    font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size:0.8em;
+}
